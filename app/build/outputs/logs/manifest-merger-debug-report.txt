@@ -1,0 +1,448 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:2:1-72:12
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\056590f3b3aeb2b088a0406a37acf0b2\material-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\78d780e7e979f381c0cb40b5ded8691d\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:17:1-42:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\0218125dd7bc3c29b146e39e493281fb\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\876acba29f09545967920ab857d776a4\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\99e49cedd33dbb151e232d1707deb0df\circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-ads:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\24d96fd5712c7c01335e946b4f9fc736\jetified-play-services-ads-19.0.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\b1f6a4853c4bebaba1ca97a6cae8259c\firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\26923404d8e377cf48027104175cd048\play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-gass:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\7c60e6efec5209e3b9e4f37c65298d6e\play-services-gass-19.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\75185506230655574b8334cb643643f0\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\f4d430d7612f12d82e3c4400aed4b652\play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\17bfe536ed8a570acfab73c2f5d2d638\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\38cada3c2c91c673ab9ce686966a2511\play-services-measurement-base-17.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\a220338f51b815ecd49d282ca76a4786\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\f02024937df418748afbe331234aa006\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\c5d349b176c72adc126b4a8399f3d7e2\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\2841747ebb5d9d000bf685ae9bd5187a\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\33904a9952e04540992fd4e899a6e29f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\599a956fc5880721b736c36d7a2a90a9\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\3ee1a7df39c8610ffd73616edf6069ab\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\65ba7ce53ddd916b7950d94b50a296ba\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\9a22d52a93b71a6bbceaa7c9c006adaa\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\37adb3ef701a2867e8769c0927655fa4\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\ac681daf82c56bbcb32cd485fc064a28\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\ab3a184af13a3a82dd474493bbfa3bb1\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\a6c2f02f5bfac95e56aa3f49c83ac397\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\45739e064fd8ad2faa9c3686c49a0516\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\704f77bb835d112513bfb707984cbdc1\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\dbd8a55495c80c3c46794875c0ca53fb\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\190ec68b3797b99e27d4d5621c313ff7\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\cea9d07eed335b7021facd428f08a0ed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\25fdd493a672d7b5d446aa2af8c06677\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\351d746180077557d29b7c45907480db\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\ac265cfd5669b686a3cba2f45a6e36b7\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\91482f6452f8e2279fb096c6daca6c99\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\ef2e7569653745383f2a88f459070658\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\e542a78b280a084fd48769af2f842423\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d673f12e92e211a8b9a89c6bdf1bf2c5\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\7d03fc8e0e7e41d5653ebb51e8c035fb\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\562a45b8cb8a3696f4fae85d73cb39c0\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\67688366c6a6c762e55784305fcbc09b\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\f5e5093a6d2ffb564f346d2769a020dc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\c92e9c6549150a4bd8eb347f54ac769d\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\a258954b59e52ea64468e7c8b611841e\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\7fcbef39c4d63cdee011faaa088ab3cd\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\6df0cf79b64fd2c26bf8b27a76ce287b\firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-ads-base:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d13801fe86ab2c1888e0c53cda6b52d0\play-services-ads-base-19.0.1\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:2:1-72:12
+	package
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:2:1-72:12
+		INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:2:1-72:12
+		INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\17bfe536ed8a570acfab73c2f5d2d638\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\17bfe536ed8a570acfab73c2f5d2d638\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:7:5-70:19
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\056590f3b3aeb2b088a0406a37acf0b2\material-1.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\056590f3b3aeb2b088a0406a37acf0b2\material-1.1.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:23:5-40:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\99e49cedd33dbb151e232d1707deb0df\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\99e49cedd33dbb151e232d1707deb0df\circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\b1f6a4853c4bebaba1ca97a6cae8259c\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\b1f6a4853c4bebaba1ca97a6cae8259c\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\26923404d8e377cf48027104175cd048\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\26923404d8e377cf48027104175cd048\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-gass:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\7c60e6efec5209e3b9e4f37c65298d6e\play-services-gass-19.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\7c60e6efec5209e3b9e4f37c65298d6e\play-services-gass-19.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\75185506230655574b8334cb643643f0\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\75185506230655574b8334cb643643f0\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\f4d430d7612f12d82e3c4400aed4b652\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\f4d430d7612f12d82e3c4400aed4b652\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\38cada3c2c91c673ab9ce686966a2511\play-services-measurement-base-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\38cada3c2c91c673ab9ce686966a2511\play-services-measurement-base-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\a220338f51b815ecd49d282ca76a4786\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\a220338f51b815ecd49d282ca76a4786\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\ef2e7569653745383f2a88f459070658\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\ef2e7569653745383f2a88f459070658\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-ads-base:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d13801fe86ab2c1888e0c53cda6b52d0\play-services-ads-base-19.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d13801fe86ab2c1888e0c53cda6b52d0\play-services-ads-base-19.0.1\AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.exampreparation.BookmarkActivity
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:14:19-51
+intent-filter#action:name:.BookmarkActivity+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:15:13-19:29
+action#com.example.exampreparation.BookmarkActivity
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:16:17-60
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:16:25-57
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:18:17-76
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:18:27-73
+activity#com.example.exampreparation.ScoreActivity
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:21:9-51
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:21:19-48
+activity#com.example.exampreparation.QuestionsActivity
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:22:9-28:20
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:22:19-52
+intent-filter#action:name:.QuestionsActivity+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:23:13-27:29
+action#com.example.exampreparation.QuestionsActivity
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:24:17-61
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:24:25-58
+activity#com.example.exampreparation.SetsActivity
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:29:9-35:20
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:29:19-47
+intent-filter#action:name:.SetsActivity+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:30:13-34:29
+action#com.example.exampreparation.SetsActivity
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:31:17-56
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:31:25-53
+activity#com.example.exampreparation.CategoriesActivity
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:36:9-56
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:36:19-53
+activity#com.example.exampreparation.Start_Quiz
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:37:9-48
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:37:19-45
+activity#com.example.exampreparation.Sign_up
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:38:9-44:20
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:38:19-42
+intent-filter#action:name:.Sign_up+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:39:13-43:29
+action#com.example.exampreparation.Sign_up
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:40:17-51
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:40:25-48
+activity#com.example.exampreparation.Sign_In
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:45:9-51:20
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:45:19-42
+intent-filter#action:name:.Sign_In+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:46:13-50:29
+action#com.example.exampreparation.Sign_In
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:47:17-51
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:47:25-48
+activity#com.example.exampreparation.MainActivity
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:52:9-58:20
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:52:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:53:13-57:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:54:17-69
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:54:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:56:17-77
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:56:27-74
+meta-data#preloaded_fonts
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:60:9-62:57
+	android:resource
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:62:13-54
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:61:13-43
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:66:9-68:69
+	android:value
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:68:13-67
+	android:name
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:67:13-69
+uses-sdk
+INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\056590f3b3aeb2b088a0406a37acf0b2\material-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\056590f3b3aeb2b088a0406a37acf0b2\material-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\78d780e7e979f381c0cb40b5ded8691d\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\78d780e7e979f381c0cb40b5ded8691d\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\0218125dd7bc3c29b146e39e493281fb\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\0218125dd7bc3c29b146e39e493281fb\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\876acba29f09545967920ab857d776a4\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\876acba29f09545967920ab857d776a4\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\99e49cedd33dbb151e232d1707deb0df\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\99e49cedd33dbb151e232d1707deb0df\circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-ads:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\24d96fd5712c7c01335e946b4f9fc736\jetified-play-services-ads-19.0.1\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\24d96fd5712c7c01335e946b4f9fc736\jetified-play-services-ads-19.0.1\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\b1f6a4853c4bebaba1ca97a6cae8259c\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\b1f6a4853c4bebaba1ca97a6cae8259c\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\26923404d8e377cf48027104175cd048\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\26923404d8e377cf48027104175cd048\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\7c60e6efec5209e3b9e4f37c65298d6e\play-services-gass-19.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\7c60e6efec5209e3b9e4f37c65298d6e\play-services-gass-19.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\75185506230655574b8334cb643643f0\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\75185506230655574b8334cb643643f0\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\f4d430d7612f12d82e3c4400aed4b652\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\f4d430d7612f12d82e3c4400aed4b652\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\17bfe536ed8a570acfab73c2f5d2d638\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\17bfe536ed8a570acfab73c2f5d2d638\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\38cada3c2c91c673ab9ce686966a2511\play-services-measurement-base-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\38cada3c2c91c673ab9ce686966a2511\play-services-measurement-base-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\a220338f51b815ecd49d282ca76a4786\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\a220338f51b815ecd49d282ca76a4786\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\f02024937df418748afbe331234aa006\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\f02024937df418748afbe331234aa006\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\c5d349b176c72adc126b4a8399f3d7e2\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\c5d349b176c72adc126b4a8399f3d7e2\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\2841747ebb5d9d000bf685ae9bd5187a\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\2841747ebb5d9d000bf685ae9bd5187a\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\33904a9952e04540992fd4e899a6e29f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\33904a9952e04540992fd4e899a6e29f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\599a956fc5880721b736c36d7a2a90a9\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\599a956fc5880721b736c36d7a2a90a9\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\3ee1a7df39c8610ffd73616edf6069ab\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\3ee1a7df39c8610ffd73616edf6069ab\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\65ba7ce53ddd916b7950d94b50a296ba\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\65ba7ce53ddd916b7950d94b50a296ba\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\9a22d52a93b71a6bbceaa7c9c006adaa\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\9a22d52a93b71a6bbceaa7c9c006adaa\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\37adb3ef701a2867e8769c0927655fa4\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\37adb3ef701a2867e8769c0927655fa4\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\ac681daf82c56bbcb32cd485fc064a28\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\ac681daf82c56bbcb32cd485fc064a28\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\ab3a184af13a3a82dd474493bbfa3bb1\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\ab3a184af13a3a82dd474493bbfa3bb1\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\a6c2f02f5bfac95e56aa3f49c83ac397\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\a6c2f02f5bfac95e56aa3f49c83ac397\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\45739e064fd8ad2faa9c3686c49a0516\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\45739e064fd8ad2faa9c3686c49a0516\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\704f77bb835d112513bfb707984cbdc1\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\704f77bb835d112513bfb707984cbdc1\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\dbd8a55495c80c3c46794875c0ca53fb\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\dbd8a55495c80c3c46794875c0ca53fb\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\190ec68b3797b99e27d4d5621c313ff7\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\190ec68b3797b99e27d4d5621c313ff7\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\cea9d07eed335b7021facd428f08a0ed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\cea9d07eed335b7021facd428f08a0ed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\25fdd493a672d7b5d446aa2af8c06677\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\25fdd493a672d7b5d446aa2af8c06677\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\351d746180077557d29b7c45907480db\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\351d746180077557d29b7c45907480db\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\ac265cfd5669b686a3cba2f45a6e36b7\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\ac265cfd5669b686a3cba2f45a6e36b7\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\91482f6452f8e2279fb096c6daca6c99\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\91482f6452f8e2279fb096c6daca6c99\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\ef2e7569653745383f2a88f459070658\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\ef2e7569653745383f2a88f459070658\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\e542a78b280a084fd48769af2f842423\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\e542a78b280a084fd48769af2f842423\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d673f12e92e211a8b9a89c6bdf1bf2c5\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d673f12e92e211a8b9a89c6bdf1bf2c5\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\7d03fc8e0e7e41d5653ebb51e8c035fb\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\7d03fc8e0e7e41d5653ebb51e8c035fb\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\562a45b8cb8a3696f4fae85d73cb39c0\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\562a45b8cb8a3696f4fae85d73cb39c0\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\67688366c6a6c762e55784305fcbc09b\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\67688366c6a6c762e55784305fcbc09b\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\f5e5093a6d2ffb564f346d2769a020dc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\f5e5093a6d2ffb564f346d2769a020dc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\c92e9c6549150a4bd8eb347f54ac769d\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\c92e9c6549150a4bd8eb347f54ac769d\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\a258954b59e52ea64468e7c8b611841e\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\a258954b59e52ea64468e7c8b611841e\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\7fcbef39c4d63cdee011faaa088ab3cd\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\7fcbef39c4d63cdee011faaa088ab3cd\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\6df0cf79b64fd2c26bf8b27a76ce287b\firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\6df0cf79b64fd2c26bf8b27a76ce287b\firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d13801fe86ab2c1888e0c53cda6b52d0\play-services-ads-base-19.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d13801fe86ab2c1888e0c53cda6b52d0\play-services-ads-base-19.0.1\AndroidManifest.xml:5:5-44
+INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\24d96fd5712c7c01335e946b4f9fc736\jetified-play-services-ads-19.0.1\AndroidManifest.xml:23:9-49
+	android:targetSdkVersion
+		INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\17bfe536ed8a570acfab73c2f5d2d638\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\17bfe536ed8a570acfab73c2f5d2d638\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:25:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:31:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:37:17-109
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\26923404d8e377cf48027104175cd048\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\26923404d8e377cf48027104175cd048\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\26923404d8e377cf48027104175cd048\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\26923404d8e377cf48027104175cd048\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:30:13-65
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:35:9-39:39
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:37:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:38:13-37
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:36:13-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\17bfe536ed8a570acfab73c2f5d2d638\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\17bfe536ed8a570acfab73c2f5d2d638\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:22-65
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\a220338f51b815ecd49d282ca76a4786\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\a220338f51b815ecd49d282ca76a4786\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\a220338f51b815ecd49d282ca76a4786\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58

@@ -1,0 +1,238 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.exampreparation"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\17bfe536ed8a570acfab73c2f5d2d638\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:5-68
+16-->[com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\17bfe536ed8a570acfab73c2f5d2d638\play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:22-65
+17
+18    <application
+18-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:7:5-70:19
+19        android:allowBackup="true"
+19-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:8:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\b6b5951a20836cbe843a8e306a5032d5\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:9:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:10:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:11:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:12:9-35
+26        android:theme="@style/AppTheme" >
+26-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:13:9-40
+27        <activity android:name="com.example.exampreparation.BookmarkActivity" >
+27-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:14:9-20:20
+27-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:14:19-51
+28            <intent-filter>
+28-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:15:13-19:29
+29                <action android:name=".BookmarkActivity" />
+29-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:16:17-60
+29-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:16:25-57
+30
+31                <category android:name="android.intent.category.DEFAULT" />
+31-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:18:17-76
+31-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:18:27-73
+32            </intent-filter>
+33        </activity>
+34        <activity android:name="com.example.exampreparation.ScoreActivity" />
+34-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:21:9-51
+34-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:21:19-48
+35        <activity android:name="com.example.exampreparation.QuestionsActivity" >
+35-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:22:9-28:20
+35-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:22:19-52
+36            <intent-filter>
+36-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:23:13-27:29
+37                <action android:name=".QuestionsActivity" />
+37-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:24:17-61
+37-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:24:25-58
+38
+39                <category android:name="android.intent.category.DEFAULT" />
+39-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:18:17-76
+39-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:18:27-73
+40            </intent-filter>
+41        </activity>
+42        <activity android:name="com.example.exampreparation.SetsActivity" >
+42-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:29:9-35:20
+42-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:29:19-47
+43            <intent-filter>
+43-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:30:13-34:29
+44                <action android:name=".SetsActivity" />
+44-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:31:17-56
+44-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:31:25-53
+45
+46                <category android:name="android.intent.category.DEFAULT" />
+46-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:18:17-76
+46-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:18:27-73
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.example.exampreparation.CategoriesActivity" />
+49-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:36:9-56
+49-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:36:19-53
+50        <activity android:name="com.example.exampreparation.Start_Quiz" />
+50-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:37:9-48
+50-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:37:19-45
+51        <activity android:name="com.example.exampreparation.Sign_up" >
+51-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:38:9-44:20
+51-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:38:19-42
+52            <intent-filter>
+52-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:39:13-43:29
+53                <action android:name=".Sign_up" />
+53-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:40:17-51
+53-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:40:25-48
+54
+55                <category android:name="android.intent.category.DEFAULT" />
+55-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:18:17-76
+55-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:18:27-73
+56            </intent-filter>
+57        </activity>
+58        <activity android:name="com.example.exampreparation.Sign_In" >
+58-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:45:9-51:20
+58-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:45:19-42
+59            <intent-filter>
+59-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:46:13-50:29
+60                <action android:name=".Sign_In" />
+60-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:47:17-51
+60-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:47:25-48
+61
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:18:17-76
+62-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:18:27-73
+63            </intent-filter>
+64        </activity>
+65        <activity android:name="com.example.exampreparation.MainActivity" >
+65-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:52:9-58:20
+65-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:52:19-47
+66            <intent-filter>
+66-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:53:13-57:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:54:17-69
+67-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:54:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:56:17-77
+69-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:56:27-74
+70            </intent-filter>
+71        </activity>
+72
+73        <meta-data
+73-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:60:9-62:57
+74            android:name="preloaded_fonts"
+74-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:61:13-43
+75            android:resource="@array/preloaded_fonts" />
+75-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:62:13-54
+76
+77        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+78        <meta-data
+78-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:66:9-68:69
+79            android:name="com.google.android.gms.ads.APPLICATION_ID"
+79-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:67:13-69
+80            android:value="ca-app-pub-3940256099942544~3347511713" />
+80-->C:\Users\SIMRAN\AndroidStudioProjects\ExamPreparation\app\src\main\AndroidManifest.xml:68:13-67
+81
+82        <service
+82-->[com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:29:9-35:19
+83            android:name="com.google.firebase.components.ComponentDiscoveryService"
+83-->[com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:30:13-84
+84            android:directBootAware="true"
+84-->[com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+85            android:exported="false" >
+85-->[com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:31:13-37
+86            <meta-data
+86-->[com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+87                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+87-->[com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-database:19.2.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\661a44bd758b5576fb731e406cc47ec2\firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:36:13-38:85
+90                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+90-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:37:17-109
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:38:17-82
+92        </service>
+93
+94        <activity
+94-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:24:9-31:50
+95            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+95-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:25:13-85
+96            android:excludeFromRecents="true"
+96-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:26:13-46
+97            android:exported="true"
+97-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:27:13-36
+98            android:launchMode="singleTask"
+98-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:28:13-44
+99            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+99-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:29:13-102
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+100-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d483e48817d8055fc9c4d073a71bf289\firebase-auth-19.3.0\AndroidManifest.xml:30:13-72
+101
+102        <provider
+102-->[com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+103            android:name="com.google.firebase.provider.FirebaseInitProvider"
+103-->[com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+104            android:authorities="com.example.exampreparation.firebaseinitprovider"
+104-->[com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+105            android:exported="false"
+105-->[com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+106            android:initOrder="100" />
+106-->[com.google.firebase:firebase-common:19.3.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\93fb66b754692245d51ebee2f43041e0\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+107
+108        <activity
+108-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\26923404d8e377cf48027104175cd048\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+109            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+109-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\26923404d8e377cf48027104175cd048\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+110            android:exported="false"
+110-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\26923404d8e377cf48027104175cd048\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+111            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+111-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\26923404d8e377cf48027104175cd048\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+112        <activity
+112-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:29:9-33:64
+113            android:name="com.google.android.gms.ads.AdActivity"
+113-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:30:13-65
+114            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+114-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:31:13-122
+115            android:exported="false"
+115-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:32:13-37
+116            android:theme="@android:style/Theme.Translucent" />
+116-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:33:13-61
+117
+118        <provider
+118-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:35:9-39:39
+119            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+119-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:36:13-76
+120            android:authorities="com.example.exampreparation.mobileadsinitprovider"
+120-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:37:13-73
+121            android:exported="false"
+121-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:38:13-37
+122            android:initOrder="100" />
+122-->[com.google.android.gms:play-services-ads-lite:19.0.1] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\d0f7287566ec0c95a5c28c3ccfc5fb5c\play-services-ads-lite-19.0.1\AndroidManifest.xml:39:13-36
+123
+124        <meta-data
+124-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\a220338f51b815ecd49d282ca76a4786\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+125            android:name="com.google.android.gms.version"
+125-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\a220338f51b815ecd49d282ca76a4786\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+126            android:value="@integer/google_play_services_version" />
+126-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\SIMRAN\.gradle\caches\transforms-2\files-2.1\a220338f51b815ecd49d282ca76a4786\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+127    </application>
+128
+129</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "848641378685",
+    "firebase_url": "https://exampreparation-f7685.firebaseio.com",
+    "project_id": "exampreparation-f7685",
+    "storage_bucket": "exampreparation-f7685.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848641378685:android:023e10330f30e58ba22414",
+        "android_client_info": {
+          "package_name": "com.example.exampreparation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848641378685-qf9f1t253o4gfi640l1tefggofsivirg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.exampreparation",
+            "certificate_hash": "d795f10708f5b16b7357d38d74f50ef450a28656"
+          }
+        },
+        {
+          "client_id": "848641378685-qpm83s1ggqccc71scso5s1amiiir4dmo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8T30iQQpKlNRGEg4dpIpa_wKzm9HmMBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848641378685-qpm83s1ggqccc71scso5s1amiiir4dmo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
